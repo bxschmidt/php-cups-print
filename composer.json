@@ -2,6 +2,8 @@
     "name": "vinceg/php-cups-print",
     "type": "library",
     "description": "PHP Wrapper around Mac CUPS printing system",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "keywords": [
         "php",
         "cups",
@@ -19,7 +21,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/collections": "^10.46"
+        "illuminate/collections": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=8.0"
